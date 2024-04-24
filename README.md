@@ -19,7 +19,7 @@ ComposeHub 是一个用来分享有趣、实用的 Docker 容器的 Docker Compo
 - [Plex Auto Languages](https://github.com/RemiRigal/Plex-Auto-Languages)：Plex 电视节目音频、字幕自动选择工具，可自动将单集的选择应用到全剧。
 - [Plex Auto Skip](https://github.com/mdhiggins/PlexAutoSkip)：通过远程控制实现局域网内连接 Plex 服务器的设备在播放时自动跳过片头尾和自动连续播放。
 - [RSSHub](https://docs.rsshub.app/)：一个开源、简单易用、易于扩展的 RSS 生成器，可以为任何内容生成 RSS 订阅源。
-- [Stream Master](https://github.com/SenexCrenshaw/StreamMaster)：一个 M3U 代理服务平台，支持导入、管理 M3U 和 EPG 文件，提供串流分析和统计工具。
+- [Stream Master](https://github.com/SenexCrenshaw/StreamMaster)：一个 M3U 代理服务平台，支持导入、管理 M3U 和 EPG，提供串流分析和统计工具。
 - [Threadfin](https://github.com/Threadfin/Threadfin)：一个基于 xTeVe 构建的专为 Plex DVR 和 Emby/Jellyfin Live TV 设计的 M3U 代理服务器。
 - [Uptime Kuma](https://github.com/louislam/uptime-kuma)：一个自托管的服务器监控工具，支持多种监控方式和通知服务。
 - [xTeVe](https://github.com/xteve-project/xTeVe)：一个 M3U 代理服务器，专为 Plex DVR 和 Emby Live TV 设计，支持合并、管理外部 M3U 和 XMLTV。
