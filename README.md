@@ -12,7 +12,7 @@ ComposeHub 是一个用来分享有趣、实用的 Docker 容器的 Docker Compo
 - [Aliyundrive Subscribe](https://hub.docker.com/r/looby/aliyundrive-subscribe)：阿里云盘订阅，自动订阅、转存、重命名、下载、签到、搜索和资源管理工具，[备份](https://github.com/x1ao4/aliyundrive-subscribe)。
 - [CloudDrive](https://www.clouddrive2.com/index.html)：一个强大的多云盘管理工具，为用户提供包含云盘本地挂载的一站式的多云盘解决方案。
 - [Docker Copilot](https://github.com/onlyLTY/dockerCopilot)：Docker 助手，支持一键更新容器、删除未使用镜像、备份容器设置、恢复容器设置等功能。
-- [Dockge](https://github.com/louislam/dockge)：一个美观易用、反应迅速的 Docker Compose 堆栈管理器，可集中管理 Docker Compose 和监视应用。
+- [Dockge](https://github.com/louislam/dockge)：一个 Docker Compose 堆栈管理工具，支持集中管理 Docker Compose 和监视应用等功能。
 - [IPTV Checker](https://github.com/zhimin-dev/iptv-checker)：M3U 直播源有效性检测工具，支持批量管理和删除无效直播源，并提供了一些直播源。
 - [Lucky](https://lucky666.cn/)：软硬路由公网神器，支持端口转发、反向代理、动态域名、网络唤醒、内网穿透、免费自动证书等功能。
 - [Nginx Proxy Manager](https://nginxproxymanager.com/)：一个简单易用的 Nginx 代理主机管理工具，支持反向代理、免费自动证书等功能。
