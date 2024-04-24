@@ -1,0 +1,11 @@
+version: "3"
+services:
+  aliyundrive-subscribe:
+    image: looby/aliyundrive-subscribe:latest
+    container_name: aliyundrive-subscribe
+    volumes:
+      - /自定义目录/aliyundrive-subscribe/conf:/app/conf
+    ports:
+      - 8002:8002
+    restart: unless-stopped
+networks: {}

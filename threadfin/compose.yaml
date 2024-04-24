@@ -1,0 +1,16 @@
+version: "3.1"
+services:
+  threadfin:
+    image: fyb3roptik/threadfin:latest
+    container_name: threadfin
+    network_mode: host
+    environment:
+      - PGID=你的PGID
+      - PUID=你的PUID
+      - TZ=Asia/Shanghai
+      - THREADFIN_PORT=34400
+    volumes:
+      - /自定义目录/threadfin/conf:/home/threadfin/conf
+      - /自定义目录/threadfin/tmp:/tmp/threadfin:rw
+    restart: unless-stopped
+networks: {}

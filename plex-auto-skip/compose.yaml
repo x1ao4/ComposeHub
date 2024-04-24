@@ -1,0 +1,13 @@
+version: "3"
+services:
+  plex-auto-skip:
+    image: ghcr.io/mdhiggins/plexautoskip-docker:latest
+    container_name: plex-auto-skip
+    environment:
+      - PUID=你的PUID
+      - PGID=你的PGID
+      - TZ=Asia/Shanghai
+    volumes:
+      - /自定义目录/plex-auto-skip/config:/config
+    restart: unless-stopped
+networks: {}

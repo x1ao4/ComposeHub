@@ -1,0 +1,19 @@
+version: "3"
+services:
+  yunplex:
+    image: neverlosewu/yunplex:latest
+    container_name: yunplex
+    environment:
+      - SCAN_INTERVAL=30
+      - SONG_LIMIT=10
+      - DOWNLOAD_DIR=/mnt/nas
+      - PHONE=你的网易云音乐手机号
+      - PASSWORD=你的网易云音乐密码
+      - PLAYLIST=要同步的网易云音乐歌单ID
+      - PLEX_SERVER=你的Plex服务器IP地址
+      - PLEX_PORT=你的Plex服务器端口号
+      - PLEX_TOKEN=你的X-Plex-Token
+    volumes:
+      - /自定义下载歌曲的存储目录:/mnt/nas
+    restart: unless-stopped
+networks: {}

@@ -1,0 +1,11 @@
+version: "3"
+services:
+  plex-auto-languages:
+    image: remirigal/plex-auto-languages:latest
+    container_name: plex-auto-languages
+    environment:
+      - TZ=Asia/Shanghai
+    volumes:
+      - /自定义目录/plex-auto-languages/config:/config
+    restart: unless-stopped
+networks: {}

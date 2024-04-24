@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  rsshub:
+    image: diygod/rsshub:chromium-bundled
+    restart: unless-stopped
+    ports:
+      - 1200:1200
+    environment:
+      NODE_ENV: production
+      CACHE_TYPE: redis
+      REDIS_URL: redis://redis:6379/
+    depends_on:
+      - redis
+  redis:
+    image: redis:alpine
+    restart: unless-stopped
+    volumes:
+      - /自定义目录/rsshub/redis/data:/data
+networks: {}

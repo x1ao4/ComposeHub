@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  nginx-proxy-manager:
+    image: jc21/nginx-proxy-manager:latest
+    container_name: nginx-proxy-manager
+    ports:
+      - 自定义http端口:80
+      - 自定义https端口:443
+      - 81:81
+    volumes:
+      - /自定义目录/nginx-proxy-manager/data:/data
+      - /自定义目录/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
+    restart: unless-stopped
+networks: {}

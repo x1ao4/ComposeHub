@@ -1,0 +1,19 @@
+version: "3.3"
+services:
+  xteve:
+    image: alturismo/xteve_guide2go:latest
+    container_name: xteve
+    logging:
+      options:
+        max-size: 10m
+        max-file: 3
+    environment:
+      - TZ=Asia/Shanghai
+    volumes:
+      - /自定义目录/xteve/xteve:/root/.xteve
+      - /自定义目录/xteve/config:/config
+      - /自定义目录/xteve/guide2go:/guide2go
+      - /自定义目录/xteve/tmp/xteve:/tmp/xteve
+    network_mode: host
+    restart: unless-stopped
+networks: {}

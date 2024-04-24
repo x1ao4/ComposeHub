@@ -1,0 +1,18 @@
+version: "2.1"
+services:
+  clouddrive:
+    image: cloudnas/clouddrive2:latest
+    container_name: clouddrive
+    environment:
+      - TZ=Asia/Shanghai
+      - CLOUDDRIVE_HOME=/Config
+    volumes:
+      - /自定义用于接受云存储挂载的目录:/CloudNAS:shared
+      - /自定义目录/clouddrive/Config:/Config
+    devices:
+      - /dev/fuse:/dev/fuse
+    restart: unless-stopped
+    pid: host
+    privileged: true
+    network_mode: host
+networks: {}

@@ -1,0 +1,14 @@
+version: "3.4"
+services:
+  stream-master:
+    image: senexcrenshaw/streammaster:latest
+    container_name: stream-master
+    network_mode: host
+    environment:
+      - PUID=你的PUID
+      - PGID=你的PGID
+    volumes:
+      - /自定义目录/stream-master/config:/config
+      - /自定义目录/stream-master/tv-logos:/config/tv-logos
+    restart: unless-stopped
+networks: {}

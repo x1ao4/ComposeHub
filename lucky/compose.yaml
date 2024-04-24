@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  lucky:
+    image: gdy666/lucky:latest
+    container_name: lucky
+    network_mode: host
+    volumes:
+      - /自定义目录/lucky/goodluck:/goodluck
+    restart: unless-stopped
+networks: {}

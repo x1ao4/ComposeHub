@@ -1,0 +1,17 @@
+version: "3"
+services:
+  docker-copilot:
+    image: 0nlylty/dockercopilot:UGREEN
+    container_name: docker-copilot
+    privileged: true
+    ports:
+      - 12712:12712
+    environment:
+      - secretKey=自定义登录密码
+      - DOCKER_HOST=unix:///var/run/docker.sock
+      - hubURL=https://docker.nju.edu.cn
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /自定义目录/docker-copilot/data:/data
+    restart: unless-stopped
+networks: {}

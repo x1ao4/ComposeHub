@@ -1,0 +1,9 @@
+version: "3"
+services:
+  iptv-checker:
+    image: zmisgod/iptvchecker:latest
+    container_name: iptv-checker
+    ports:
+      - 8081:8080
+    restart: unless-stopped
+networks: {}

@@ -1,0 +1,15 @@
+version: "3.3"
+services:
+  alist:
+    image: xhofe/alist:latest
+    container_name: alist
+    volumes:
+      - /自定义目录/alist/data:/opt/alist/data
+    ports:
+      - 5244:5244
+    environment:
+      - PUID=你的PUID
+      - PGID=你的PGID
+      - UMASK=022
+    restart: unless-stopped
+networks: {}
