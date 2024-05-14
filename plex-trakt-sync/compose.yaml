@@ -1,0 +1,38 @@
+version: "2"
+services:
+  pts-scheduler:
+    image: mcuadros/ofelia:latest
+    container_name: pts-scheduler
+    depends_on:
+      - pts-sync
+    command: daemon --docker -f label=com.docker.compose.project=${COMPOSE_PROJECT_NAME}
+    labels:
+      ofelia.job-run.pts-sync.schedule: 0 30 22 * * *
+      ofelia.job-run.pts-sync.container: pts-sync
+    environment:
+      - TZ=Asia/Shanghai
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    restart: unless-stopped
+  pts-sync:
+    image: ghcr.io/taxel/plextraktsync:latest
+    container_name: pts-sync
+    command: sync
+    environment:
+      - PUID=你的PUID
+      - PGID=你的PGID
+      - TZ=Asia/Shanghai
+    volumes:
+      - /自定义目录/plex-trakt-sync/config:/app/config
+  pts-watch:
+    image: ghcr.io/taxel/plextraktsync:latest
+    container_name: pts-watch
+    command: watch
+    environment:
+      - PUID=你的PUID
+      - PGID=你的PGID
+      - TZ=Asia/Shanghai
+    volumes:
+      - /自定义目录/plex-trakt-sync/config:/app/config
+    restart: unless-stopped
+networks: {}
