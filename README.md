@@ -18,6 +18,7 @@ ComposeHub 是一个用来分享有趣、实用的 Docker 容器的 Docker Compo
 - [Nginx Proxy Manager](https://nginxproxymanager.com/)：一个简单易用的 Nginx 代理主机管理工具，支持反向代理、免费自动证书等功能。
 - [Plex Auto Languages](https://github.com/RemiRigal/Plex-Auto-Languages)：Plex 电视节目音频、字幕自动选择工具，可自动将单集的选择应用到全剧。
 - [Plex Auto Skip](https://github.com/mdhiggins/PlexAutoSkip)：通过远程控制实现局域网内连接 Plex 服务器的设备在播放时自动跳过片头尾和自动连续播放。
+- [Plex Edition Manager](https://github.com/x1ao4/plex-edition-manager)：Plex 电影版本（Edition）管理工具
 - [Plex Localization ZH](https://github.com/x1ao4/plex-localization-zh)：Plex 拼音排序、拼音搜索及标签汉化工具。
 - [Plex Trakt Sync](https://github.com/Taxel/PlexTraktSync)：一个用于同步 Plex 与 Trakt 的观看记录、评分和收藏等信息的工具，支持实时同步。
 - [RSSHub](https://docs.rsshub.app/)：一个开源、简单易用、易于扩展的 RSS 生成器，可以为任何内容生成 RSS 订阅源。
