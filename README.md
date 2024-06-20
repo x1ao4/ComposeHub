@@ -9,7 +9,7 @@ ComposeHub 是一个用来分享有趣、实用的 Docker 容器的 Docker Compo
 
 ## 容器列表
 1. [AList](https://alist.nn.ci/zh/)：一个支持多种存储的文件列表程序，提供文件预览和下载功能，支持通过 WebDAV 访问网盘。
-2. [Aliyundrive Subscribe](https://hub.docker.com/r/looby/aliyundrive-subscribe)：阿里云盘订阅，自动订阅、转存、重命名、下载、签到、搜索和资源管理工具，[备份](https://github.com/x1ao4/aliyundrive-subscribe)。
+2. [Aliyundrive Subscribe](https://github.com/adminpass/aliyundrive-subscribe)：阿里云盘订阅，自动订阅、转存、重命名、下载、签到、搜索和资源管理工具。
 3. [Chinese Localization for Plex](https://github.com/x1ao4/chinese-localization-for-plex)：Plex 拼音排序、拼音搜索及标签汉化工具。
 4. [CloudDrive](https://www.clouddrive2.com/index.html)：一个强大的多云盘管理工具，为用户提供包含云盘本地挂载的一站式多云盘解决方案。
 5. [Docker Copilot](https://github.com/onlyLTY/dockerCopilot)：Docker 助手，支持一键更新容器、删除未使用镜像、备份容器设置、恢复容器设置等功能。
