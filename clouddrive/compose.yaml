@@ -7,8 +7,8 @@ services:
       - TZ=Asia/Shanghai
       - CLOUDDRIVE_HOME=/Config
     volumes:
-      - /自定义用于接受云存储挂载的目录:/CloudNAS:shared
       - /自定义目录/clouddrive/Config:/Config
+      - /自定义用于接受云存储挂载的目录:/CloudNAS:shared
     devices:
       - /dev/fuse:/dev/fuse
     restart: unless-stopped
