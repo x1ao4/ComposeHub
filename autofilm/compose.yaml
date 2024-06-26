@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  autofilm:
+    image: akimio/autofilm:1.1.1-1
+    container_name: autofilm
+    volumes:
+      - /自定义目录/autofilm/config:/app/config
+      - /自定义生成文件的存储目录:/app/media
+    environment:
+      - INTERVAL=3600
+networks: {}
