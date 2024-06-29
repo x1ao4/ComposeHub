@@ -5,8 +5,8 @@ services:
     ports:
       - 5050:5000
     environment:
-      - http_proxy=http://你的代理服务器IP:端口
-      - https_proxy=http://你的代理服务器IP:端口
+      - http_proxy=http://你的代理服务器IP地址:代理端口
+      - https_proxy=http://你的代理服务器IP地址:代理端口
       - MYTVSUPER_TOKEN=myTVSUPER的Token
     restart: unless-stopped
 networks: {}
