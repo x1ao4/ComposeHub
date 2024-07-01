@@ -8,4 +8,5 @@ services:
       - /自定义生成文件的存储目录:/app/media
     environment:
       - INTERVAL=3600
+    restart: unless-stopped
 networks: {}
