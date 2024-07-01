@@ -1,0 +1,12 @@
+version: "2.1"
+services:
+  mdc-ng:
+    image: mdcng/mdc:latest
+    container_name: mdc-ng
+    volumes:
+      - /自定义目录/mdc-ng/config:/config
+      - /自定义媒体文件的存储目录:/media
+    ports:
+      - 9208:9208
+    restart: unless-stopped
+networks: {}
