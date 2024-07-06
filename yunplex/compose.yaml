@@ -13,6 +13,7 @@ services:
       - PLEX_SERVER=你的Plex服务器IP地址
       - PLEX_PORT=你的Plex服务器端口号
       - PLEX_TOKEN=你的X-Plex-Token
+      - PLEX_SECTION=要同步的网易云音乐同名歌单所在资料库的库名
     volumes:
       - /自定义下载歌曲的存储目录:/mnt/nas
     restart: unless-stopped
