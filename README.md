@@ -30,3 +30,8 @@ ComposeHub 是一个用来分享有趣、实用的 Docker 容器的 Docker Compo
 20. [Uptime Kuma](https://github.com/louislam/uptime-kuma)：一个自托管的服务器监控工具，支持多种监控方式和通知服务。
 21. [xTeVe](https://github.com/xteve-project/xTeVe)：一个 M3U 代理服务器，专为 Plex DVR 和 Emby Live TV 设计，支持合并、管理外部 M3U 和 XMLTV。
 22. [YunPlex](https://github.com/awillheartwu/yunplex)：一个用来同步 Plex 音乐资料库和网易云音乐歌单的工具。
+
+## 赞赏
+如果你觉得这个项目对你有用，可以请我喝杯咖啡。如果你喜欢这个项目，可以给我一个⭐️。谢谢你的支持！
+
+<img width="399" alt="赞赏" src="https://github.com/x1ao4/ComposeHub/assets/112841659/9f1b8962-a4e0-498e-8e8a-661cdbc8d2b3">
