@@ -19,7 +19,7 @@ ComposeHub 是一个用来分享有趣、实用的 Docker 容器的 Docker Compo
 9. [IPTV Checker](https://github.com/zhimin-dev/iptv-checker)：M3U 直播源有效性检测工具，支持批量管理源、删除无效源，并提供了一些直播源。
 10. [Lucky](https://lucky666.cn/)：软硬路由公网神器，支持端口转发、反向代理、动态域名、网络唤醒、内网穿透、免费自动证书等功能。
 11. [MDC-NG](https://github.com/mdc-ng/mdc-ng)：视频刮削工具，支持刮削元数据、整理文件等功能，支持下载、处理图片，可生成 NFO 文件。
-12. [Music Tag Web](https://github.com/xhongc/music-tag-web)：音乐标签编辑工具，支持从国内外音乐平台刮削元数据并写入标签，支持批量处理和文件整理。
+12. [Music Tag Web](https://github.com/xhongc/music-tag-web)：音乐标签编辑工具，支持从国内外音乐平台刮削元数据并写入标签，支持批量处理。
 13. [Nginx Proxy Manager](https://nginxproxymanager.com/)：一个简单易用的 Nginx 代理主机管理工具，支持反向代理、免费自动证书等功能。
 14. [Pixman](https://hub.docker.com/r/pixman/pixman)：通过自建服务器，使用自己的 IP 地址或域名访问由作者维护的 IPTV 直播源。
 15. [Plex Auto Languages](https://github.com/RemiRigal/Plex-Auto-Languages)：Plex 电视节目音频、字幕自动选择工具，可自动将单集的选择应用到全剧。
