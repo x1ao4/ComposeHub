@@ -1,0 +1,13 @@
+version: "3"
+services:
+  music-tag-web:
+    image: xhongc/music_tag_web:latest
+    container_name: music-tag-web
+    ports:
+      - 8001:8001
+    volumes:
+      - /自定义目录/music-tag-web/data:/app/data
+      - /自定义音乐文件的存储目录:/app/media
+    command: /start
+    restart: unless-stopped
+networks: {}
