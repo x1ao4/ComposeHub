@@ -1,0 +1,13 @@
+version: “3”
+services:
+  clear-115-share-dir:
+    image: registry.cn-hangzhou.aliyuncs.com/nanfeng_super/clear_115_share_dir:latest
+    container_name: clear-115-share-dir
+    ports:
+      - 8088:80
+    environment:
+      - TZ=Asia/Shanghai
+    volumes:
+      - /自定义目录/clear-115-share-dir/config:/usr/src/app/src/db
+    restart: unless-stopped
+networks: {}
