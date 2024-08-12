@@ -1,0 +1,9 @@
+version: "3"
+services:
+  deepl-api:
+    image: zu1k/deepl:latest
+    container_name: deepl-api
+    ports:
+      - 8080:80
+    restart: unless-stopped
+networks: {}
