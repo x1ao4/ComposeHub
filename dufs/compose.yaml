@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+  dufs:
+    image: sigoden/dufs:latest
+    container_name: dufs
+    ports:
+      - 5000:5000
+    volumes:
+      - /自定义目录:/data
+    command: /data -A -a 自定义用户名:自定义密码@/:rw
+    restart: unless-stopped
+networks: {}
