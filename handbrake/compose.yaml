@@ -12,5 +12,6 @@ services:
       - /自定义自动转换后的媒体文件的存储目录:/output
     environment:
       - ENABLE_CJK_FONT=1
+      - LANG=zh_CN.UTF-8
     restart: unless-stopped
 networks: {}
