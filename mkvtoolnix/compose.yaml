@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+  mkvtoolnix:
+    image: jlesage/mkvtoolnix:latest
+    container_name: mkvtoolnix
+    ports:
+      - 5800:5800
+    volumes:
+      - /自定义用户数据的存储目录/mkvtoolnix/config:/config
+      - /自定义媒体文件的存储目录:/storage
+    environment:
+      - ENABLE_CJK_FONT=1
+    restart: unless-stopped
+networks: {}
