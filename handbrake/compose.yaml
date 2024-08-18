@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+  handbrake:
+    image: jlesage/handbrake:latest
+    container_name: handbrake
+    ports:
+      - 5800:5800
+    volumes:
+      - /自定义用户数据的存储目录/handbrake/config:/config
+      - /自定义媒体文件的存储目录:/storage
+      - /自定义需要自动转换的媒体文件的存储目录:/watch
+      - /自定义自动转换后的媒体文件的存储目录:/output
+    restart: unless-stopped
+networks: {}
