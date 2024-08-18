@@ -10,5 +10,7 @@ services:
       - /自定义媒体文件的存储目录:/storage
       - /自定义需要自动转换的媒体文件的存储目录:/watch
       - /自定义自动转换后的媒体文件的存储目录:/output
+    environment:
+      - ENABLE_CJK_FONT=1
     restart: unless-stopped
 networks: {}
