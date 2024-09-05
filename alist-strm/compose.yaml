@@ -1,0 +1,16 @@
+version: "3"
+services:
+  alist-strm:
+    image: itefuir/alist-strm:latest
+    container_name: alist-strm
+    ports:
+      - 15000:5000
+    environment:
+      - TZ=Asia/Shanghai
+    volumes:
+      - /自定义配置文件的存储目录/alist-strm/config:/config
+      - /自定义生成文件的存储目录:/media
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+networks: {}
