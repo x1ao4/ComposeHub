@@ -9,7 +9,7 @@ services:
       - TZ=Asia/Shanghai
     volumes:
       - /自定义配置文件的存储目录/alist-strm/config:/config
-      - /自定义生成文件的存储目录:/media
+      - /自定义生成文件的存储目录:/自定义生成文件的存储目录
     stdin_open: true
     tty: true
     restart: unless-stopped
