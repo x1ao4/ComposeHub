@@ -1,0 +1,11 @@
+version: "3"
+services:
+  bili-sync:
+    image: amtoaer/bili-sync-rs:latest
+    container_name: bili-sync
+    volumes:
+      - /自定义配置文件的存储目录/bili-sync/config:/app/.config/bili-sync
+      - /自定义下载文件的存储目录:/自定义下载文件的存储目录
+    tty: true
+    restart: unless-stopped
+networks: {}
