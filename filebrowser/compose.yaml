@@ -1,0 +1,15 @@
+version: "3.3"
+services:
+  filebrowser:
+    image: filebrowser/filebrowser:s6
+    container_name: filebrowser
+    ports:
+      - 8080:80
+    environment:
+      - PUID=你的PUID
+      - PGID=你的PGID
+    volumes:
+      - /自定义用户数据的存储目录/filebrowser/database:/database
+      - /自定义用户文件的存储目录:/srv
+    restart: unless-stopped
+networks: {}
