@@ -8,6 +8,7 @@ services:
     environment:
       - PUID=你的PUID
       - PGID=你的PGID
+      - TZ=Asia/Shanghai
     volumes:
       - /自定义用户数据的存储目录/filebrowser/database:/database
       - /自定义用户文件的存储目录:/srv
