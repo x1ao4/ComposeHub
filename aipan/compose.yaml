@@ -1,0 +1,13 @@
+version: "3"
+services:
+  aipan:
+    image: fooololo/aipan-netdisk-search:latest
+    container_name: aipan
+    ports:
+      - 13000:3000
+    logging:
+      options:
+        max-size: 5m
+        max-file: 5
+    restart: unless-stopped
+networks: {}
