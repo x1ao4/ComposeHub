@@ -8,37 +8,38 @@ ComposeHub 是一个用来分享有趣、实用的 Docker 容器的 Docker Compo
 - **其他配置**：若还存在其他需要自定义的配置选项，请根据说明按需要进行设置。
 
 ## 容器列表
-1. [AList-STRM](https://github.com/tefuirZ/alist-strm)：一个用于为 AList 生成 STRM 文件的工具，可用于网盘文件 302 直链或免挂载入库，有 WebUI。
-2. [AList](https://alist.nn.ci/zh/)：一个支持多种存储的文件列表程序，提供文件预览和下载功能，支持通过 WebDAV 访问网盘。
-3. [Aliyundrive Subscribe](https://github.com/adminpass/aliyundrive-subscribe)：阿里云盘订阅，自动订阅、转存、重命名、下载、签到、搜索和资源管理工具。
-4. [AutoFilm](https://github.com/Akimio521/AutoFilm)：一个用于为 AList 生成 STRM 文件的工具，可用于网盘文件 302 直链或免挂载入库。
-5. [Bili-Sync](https://bili-sync.allwens.work/)：一个用于下载和同步哔哩哔哩收藏夹、合集和视频列表的工具，可生成 NFO 文件，支持弹幕转换。
-6. [Chinese Localization for Plex](https://github.com/x1ao4/chinese-localization-for-plex)：Plex 拼音排序、拼音搜索及标签汉化工具。
-7. Clear 115 Share Dir：定时自动清空 115 网盘我的接收或回收站的工具，支持自定义执行周期。
-8. [CloudDrive](https://www.clouddrive2.com/index.html)：一个强大的多云盘管理工具，为用户提供包含云盘本地挂载的一站式多云盘解决方案。
-9. [DeepL API](https://hub.docker.com/r/zu1k/deepl)：通过逆向 DeepL 客户端使用的协议，实现的免费 DeepL API。
-10. [Docker Copilot](https://github.com/onlyLTY/dockerCopilot)：Docker 助手，支持一键更新容器、删除未使用镜像、备份容器设置、恢复容器设置等功能。
-11. [Dockge](https://github.com/louislam/dockge)：一个 Docker Compose 堆栈管理工具，支持集中管理 Docker Compose 和监视应用等功能。
-12. [Dufs](https://github.com/sigoden/dufs)：一个开源文件服务器，支持文件管理、搜索和访问控制等功能，可为本地存储提供 WebDAV 服务。
-13. [Edition Manager for Plex](https://github.com/x1ao4/edition-manager-for-plex)：Plex 电影版本（Edition）管理工具。
-14. [File Browser](https://github.com/filebrowser/filebrowser)：一个开源文件服务器，支持文件管理、搜索、分享和访问控制等功能，支持用户注册使用。
-15. [HandBrake](https://github.com/jlesage/docker-handbrake)：一款开源、跨平台的视频转换/转码工具，内置了多种预设方案，支持批量转换。
-16. [IPTV Checker](https://github.com/zhimin-dev/iptv-checker)：M3U 直播源有效性检测工具，支持批量管理源、删除无效源，并提供了一些直播源。
-17. [Lucky](https://lucky666.cn/)：软硬路由公网神器，支持端口转发、反向代理、动态域名、网络唤醒、内网穿透、免费自动证书等功能。
-18. [MDC-NG](https://github.com/mdc-ng/mdc-ng)：视频刮削工具，支持刮削元数据、整理文件等功能，支持下载、处理图片，可生成 NFO 文件。
-19. [MKVToolNix](https://github.com/jlesage/docker-mkvtoolnix)：一款用于创建、编辑、分割、合并和检查 MKV 媒体文件的工具，可用于压缩或 Remux 媒体文件。
-20. [Music Tag Web](https://github.com/xhongc/music-tag-web)：音乐标签编辑工具，支持从国内外音乐平台刮削元数据并写入标签，支持批量处理。
-21. [Nginx Proxy Manager](https://nginxproxymanager.com/)：一个简单易用的 Nginx 代理主机管理工具，支持反向代理、免费自动证书等功能。
-22. [Pixman](https://hub.docker.com/r/pixman/pixman)：通过自建服务器，使用自己的 IP 地址或域名访问由作者维护的 IPTV 直播源。
-23. [Plex Auto Languages](https://github.com/RemiRigal/Plex-Auto-Languages)：Plex 电视节目音频、字幕自动选择工具，可自动将单集的选择应用到全剧。
-24. [Plex Auto Skip](https://github.com/mdhiggins/PlexAutoSkip)：通过远程控制实现局域网内连接 Plex 服务器的设备在播放时自动跳过片头尾和自动连续播放。
-25. [Plex Trakt Sync](https://github.com/Taxel/PlexTraktSync)：一个用于同步 Plex 与 Trakt 的观看记录、评分和收藏等信息的工具，支持实时同步。
-26. [RSSHub](https://docs.rsshub.app/)：一个开源、简单易用、易于扩展的 RSS 生成器，可以为任何内容生成 RSS 订阅源。
-27. [Stream Master](https://github.com/SenexCrenshaw/StreamMaster)：一个 M3U 代理服务平台，支持导入、管理 M3U 和 EPG，提供串流分析和统计工具。
-28. [Threadfin](https://github.com/Threadfin/Threadfin)：一个基于 xTeVe 构建的专为 Plex DVR 和 Emby/Jellyfin Live TV 设计的 M3U 代理服务器。
-29. [Uptime Kuma](https://github.com/louislam/uptime-kuma)：一个自托管的服务器监控工具，支持多种监控方式和通知服务。
-30. [xTeVe](https://github.com/xteve-project/xTeVe)：一个 M3U 代理服务器，专为 Plex DVR 和 Emby Live TV 设计，支持合并、管理外部 M3U 和 XMLTV。
-31. [YunPlex](https://github.com/awillheartwu/yunplex)：一个用来同步 Plex 音乐资料库和网易云音乐歌单的工具。
+1. [AIPAN](https://github.com/unilei/aipan-netdisk-search)：一个支持自行部署的网盘资源搜索引擎，支持搜索百度、夸克、阿里、迅雷等网盘的资源。
+2. [AList-STRM](https://github.com/tefuirZ/alist-strm)：一个用于为 AList 生成 STRM 文件的工具，可用于网盘文件 302 直链或免挂载入库，有 WebUI。
+3. [AList](https://alist.nn.ci/zh/)：一个支持多种存储的文件列表程序，提供文件预览和下载功能，支持通过 WebDAV 访问网盘。
+4. [Aliyundrive Subscribe](https://github.com/adminpass/aliyundrive-subscribe)：阿里云盘订阅，自动订阅、转存、重命名、下载、签到、搜索和资源管理工具。
+5. [AutoFilm](https://github.com/Akimio521/AutoFilm)：一个用于为 AList 生成 STRM 文件的工具，可用于网盘文件 302 直链或免挂载入库。
+6. [Bili-Sync](https://bili-sync.allwens.work/)：一个用于下载和同步哔哩哔哩收藏夹、合集和视频列表的工具，可生成 NFO 文件，支持弹幕转换。
+7. [Chinese Localization for Plex](https://github.com/x1ao4/chinese-localization-for-plex)：Plex 拼音排序、拼音搜索及标签汉化工具。
+8. Clear 115 Share Dir：定时自动清空 115 网盘我的接收或回收站的工具，支持自定义执行周期。
+9. [CloudDrive](https://www.clouddrive2.com/index.html)：一个强大的多云盘管理工具，为用户提供包含云盘本地挂载的一站式多云盘解决方案。
+10. [DeepL API](https://hub.docker.com/r/zu1k/deepl)：通过逆向 DeepL 客户端使用的协议，实现的免费 DeepL API。
+11. [Docker Copilot](https://github.com/onlyLTY/dockerCopilot)：Docker 助手，支持一键更新容器、删除未使用镜像、备份容器设置、恢复容器设置等功能。
+12. [Dockge](https://github.com/louislam/dockge)：一个 Docker Compose 堆栈管理工具，支持集中管理 Docker Compose 和监视应用等功能。
+13. [Dufs](https://github.com/sigoden/dufs)：一个开源文件服务器，支持文件管理、搜索和访问控制等功能，可为本地存储提供 WebDAV 服务。
+14. [Edition Manager for Plex](https://github.com/x1ao4/edition-manager-for-plex)：Plex 电影版本（Edition）管理工具。
+15. [File Browser](https://github.com/filebrowser/filebrowser)：一个开源文件服务器，支持文件管理、搜索、分享和访问控制等功能，支持用户注册使用。
+16. [HandBrake](https://github.com/jlesage/docker-handbrake)：一款开源、跨平台的视频转换/转码工具，内置了多种预设方案，支持批量转换。
+17. [IPTV Checker](https://github.com/zhimin-dev/iptv-checker)：M3U 直播源有效性检测工具，支持批量管理源、删除无效源，并提供了一些直播源。
+18. [Lucky](https://lucky666.cn/)：软硬路由公网神器，支持端口转发、反向代理、动态域名、网络唤醒、内网穿透、免费自动证书等功能。
+19. [MDC-NG](https://github.com/mdc-ng/mdc-ng)：视频刮削工具，支持刮削元数据、整理文件等功能，支持下载、处理图片，可生成 NFO 文件。
+20. [MKVToolNix](https://github.com/jlesage/docker-mkvtoolnix)：一款用于创建、编辑、分割、合并和检查 MKV 媒体文件的工具，可用于压缩或 Remux 媒体文件。
+21. [Music Tag Web](https://github.com/xhongc/music-tag-web)：音乐标签编辑工具，支持从国内外音乐平台刮削元数据并写入标签，支持批量处理。
+22. [Nginx Proxy Manager](https://nginxproxymanager.com/)：一个简单易用的 Nginx 代理主机管理工具，支持反向代理、免费自动证书等功能。
+23. [Pixman](https://hub.docker.com/r/pixman/pixman)：通过自建服务器，使用自己的 IP 地址或域名访问由作者维护的 IPTV 直播源。
+24. [Plex Auto Languages](https://github.com/RemiRigal/Plex-Auto-Languages)：Plex 电视节目音频、字幕自动选择工具，可自动将单集的选择应用到全剧。
+25. [Plex Auto Skip](https://github.com/mdhiggins/PlexAutoSkip)：通过远程控制实现局域网内连接 Plex 服务器的设备在播放时自动跳过片头尾和自动连续播放。
+26. [Plex Trakt Sync](https://github.com/Taxel/PlexTraktSync)：一个用于同步 Plex 与 Trakt 的观看记录、评分和收藏等信息的工具，支持实时同步。
+27. [RSSHub](https://docs.rsshub.app/)：一个开源、简单易用、易于扩展的 RSS 生成器，可以为任何内容生成 RSS 订阅源。
+28. [Stream Master](https://github.com/SenexCrenshaw/StreamMaster)：一个 M3U 代理服务平台，支持导入、管理 M3U 和 EPG，提供串流分析和统计工具。
+29. [Threadfin](https://github.com/Threadfin/Threadfin)：一个基于 xTeVe 构建的专为 Plex DVR 和 Emby/Jellyfin Live TV 设计的 M3U 代理服务器。
+30. [Uptime Kuma](https://github.com/louislam/uptime-kuma)：一个自托管的服务器监控工具，支持多种监控方式和通知服务。
+31. [xTeVe](https://github.com/xteve-project/xTeVe)：一个 M3U 代理服务器，专为 Plex DVR 和 Emby Live TV 设计，支持合并、管理外部 M3U 和 XMLTV。
+32. [YunPlex](https://github.com/awillheartwu/yunplex)：一个用来同步 Plex 音乐资料库和网易云音乐歌单的工具。
 
 ## 赞赏
 如果你觉得这个项目对你有用，可以请我喝杯咖啡。如果你喜欢这个项目，可以给我一个⭐️。谢谢你的支持！
