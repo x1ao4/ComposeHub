@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  allinone:
+    image: youshandefeiyang/allinone:latest
+    container_name: allinone
+    ports:
+      - 35455:35455
+    restart: unless-stopped
+  allinone-updater:
+    image: containrrr/watchtower:latest
+    container_name: allinone-updater
+    environment:
+      - TZ=Asia/Shanghai
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: allinone -c --schedule "0 0 2 * * *"
+    restart: unless-stopped
+networks: {}
