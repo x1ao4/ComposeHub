@@ -23,7 +23,8 @@ services:
       - PGID=你的PGID
       - TZ=Asia/Shanghai
     volumes:
-      - /自定义目录/plex-trakt-sync/config:/app/config
+      - /自定义配置文件的存储目录/plex-trakt-sync/config:/app/config
+    tty: true
   pts-watch:
     image: ghcr.io/taxel/plextraktsync:latest
     container_name: pts-watch
@@ -33,6 +34,6 @@ services:
       - PGID=你的PGID
       - TZ=Asia/Shanghai
     volumes:
-      - /自定义目录/plex-trakt-sync/config:/app/config
+      - /自定义配置文件的存储目录/plex-trakt-sync/config:/app/config
     restart: unless-stopped
 networks: {}
