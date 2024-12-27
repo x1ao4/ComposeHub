@@ -16,7 +16,7 @@ ComposeHub 是一个用来分享有趣、实用的 Docker 容器的 Docker Compo
 6. [AutoFilm](https://github.com/Akimio521/AutoFilm)：一个用于为 AList 生成 STRM 文件的工具，可用于网盘文件 302 直链或免挂载入库。
 7. [Bili-Sync](https://bili-sync.allwens.work/)：一个用于下载和同步哔哩哔哩收藏夹、合集和视频列表的工具，可生成 NFO 文件，支持弹幕转换。
 8. [Chinese Localization for Plex](https://github.com/x1ao4/chinese-localization-for-plex)：Plex 拼音排序、拼音搜索及标签汉化工具。
-9. Clear 115 Share Dir：定时自动清空 115 网盘我的接收或回收站的工具，支持自定义执行周期。
+9. [Clear 115 Share Dir](https://github.com/x1ao4/ComposeHub/blob/main/clear-115-share-dir/compose.yaml)：定时自动清空 115 网盘我的接收或回收站的工具，支持自定义执行周期。
 10. [CloudDrive](https://www.clouddrive2.com/index.html)：一个强大的多云盘管理工具，为用户提供包含云盘本地挂载的一站式多云盘解决方案。
 11. [DeepL API](https://hub.docker.com/r/zu1k/deepl)：通过逆向 DeepL 客户端使用的协议，实现的免费 DeepL API。
 12. [Docker Copilot](https://github.com/onlyLTY/dockerCopilot)：Docker 助手，支持一键更新容器、删除未使用镜像、备份容器设置、恢复容器设置等功能。
@@ -40,8 +40,9 @@ ComposeHub 是一个用来分享有趣、实用的 Docker 容器的 Docker Compo
 30. [Stream Master](https://github.com/SenexCrenshaw/StreamMaster)：一个 M3U 代理服务平台，支持导入、管理 M3U 和 EPG，提供串流分析和统计工具。
 31. [Threadfin](https://github.com/Threadfin/Threadfin)：一个基于 xTeVe 构建的专为 Plex DVR 和 Emby/Jellyfin Live TV 设计的 M3U 代理服务器。
 32. [Uptime Kuma](https://github.com/louislam/uptime-kuma)：一个自托管的服务器监控工具，支持多种监控方式和通知服务。
-33. [xTeVe](https://github.com/xteve-project/xTeVe)：一个 M3U 代理服务器，专为 Plex DVR 和 Emby Live TV 设计，支持合并、管理外部 M3U 和 XMLTV。
-34. [YunPlex](https://github.com/awillheartwu/yunplex)：一个用来同步 Plex 音乐资料库和网易云音乐歌单的工具。
+33. [Wangpan-Change-Plex](https://github.com/x1ao4/ComposeHub/blob/main/wangpan-change-plex/compose.yaml)：Plex 网盘自动局部入库工具，支持阿里云盘、115 网盘。
+34. [xTeVe](https://github.com/xteve-project/xTeVe)：一个 M3U 代理服务器，专为 Plex DVR 和 Emby Live TV 设计，支持合并、管理外部 M3U 和 XMLTV。
+35. [YunPlex](https://github.com/awillheartwu/yunplex)：一个用来同步 Plex 音乐资料库和网易云音乐歌单的工具。
 
 ## 赞赏
 如果你觉得这个项目对你有用，可以请我喝杯咖啡。如果你喜欢这个项目，可以给我一个⭐️。谢谢你的支持！
