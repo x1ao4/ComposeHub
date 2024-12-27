@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  wangpan-change-plex:
+    image: registry.cn-hangzhou.aliyuncs.com/nanfeng_super/wangpan_change_plex:latest
+    container_name: wangpan-change-plex
+    volumes:
+      - /自定义配置文件的存储目录/wangpan-change-plex/config:/usr/src/app/src/db
+    environment:
+      - TZ=Asia/Shanghai
+      - APP_PORT=999
+    network_mode: host
+    restart: unless-stopped
+networks: {}
