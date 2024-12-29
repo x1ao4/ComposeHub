@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  p115dav:
+    image: cgkings/p115dav:latest
+    container_name: p115dav
+    volumes:
+      - /自定义配置文件的存储目录/p115dav/config:/usr/src/app
+    ports:
+      - 8091:8091
+    restart: unless-stopped
+networks: {}
