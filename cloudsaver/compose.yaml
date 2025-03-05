@@ -3,6 +3,8 @@ services:
   cloudsaver:
     image: ghcr.io/jiangrui1994/cloudsaver:latest
     container_name: cloudsaver
+    volumes:
+      - /自定义用户数据的存储目录/cloudsaver/data:/app/data
     ports:
       - 8008:8008
     restart: unless-stopped
