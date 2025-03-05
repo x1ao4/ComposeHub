@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  cloudsaver:
+    image: ghcr.io/jiangrui1994/cloudsaver:latest
+    container_name: cloudsaver
+    ports:
+      - 8008:8008
+    restart: unless-stopped
+networks: {}
