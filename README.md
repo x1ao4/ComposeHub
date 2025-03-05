@@ -18,7 +18,7 @@ ComposeHub 是一个用来分享有趣、实用的 Docker 容器的 Docker Compo
 8. [Chinese Localization for Plex](https://github.com/x1ao4/chinese-localization-for-plex)：Plex 拼音排序、拼音搜索及标签汉化工具。
 9. [Clear 115 Share Dir](https://github.com/x1ao4/ComposeHub/blob/main/clear-115-share-dir/compose.yaml)：定时自动清空 115 网盘我的接收或回收站的工具，支持自定义执行周期。
 10. [CloudDrive](https://www.clouddrive2.com/index.html)：一个强大的多云盘管理工具，为用户提供包含云盘本地挂载的一站式多云盘解决方案。
-11. [CloudSaver](https://github.com/jiangrui1994/CloudSaver)：115 网盘、夸克网盘资源搜索与转存工具，支持一键转存、多用户使用等功能。
+11. [CloudSaver](https://github.com/jiangrui1994/CloudSaver)：115 网盘、夸克网盘资源搜索与转存工具，支持一键转存、豆瓣榜单、多用户使用等功能。
 12. [DeepL API](https://hub.docker.com/r/zu1k/deepl)：通过逆向 DeepL 客户端使用的协议，实现的免费 DeepL API。
 13. [Docker Copilot](https://github.com/onlyLTY/dockerCopilot)：Docker 助手，支持一键更新容器、删除未使用镜像、备份容器设置、恢复容器设置等功能。
 14. [Dockge](https://github.com/louislam/dockge)：一个 Docker Compose 堆栈管理工具，支持集中管理 Docker Compose 和监视应用等功能。
