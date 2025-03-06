@@ -5,6 +5,7 @@ services:
     container_name: cloudsaver
     volumes:
       - /自定义用户数据的存储目录/cloudsaver/data:/app/data
+      - /自定义配置文件的存储目录/cloudsaver/config:/app/config
     ports:
       - 8008:8008
     restart: unless-stopped
