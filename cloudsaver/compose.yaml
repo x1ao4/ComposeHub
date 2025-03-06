@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   cloudsaver:
-    image: ghcr.io/jiangrui1994/cloudsaver:latest
+    image: jiangrui1994/cloudsaver:latest
     container_name: cloudsaver
     volumes:
       - /自定义用户数据的存储目录/cloudsaver/data:/app/data
