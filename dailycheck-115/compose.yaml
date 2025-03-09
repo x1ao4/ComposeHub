@@ -1,0 +1,12 @@
+version: "3"
+services:
+  dailycheck-115:
+    image: knightzhi/dailycheck-115:latest
+    container_name: dailycheck-115
+    volumes:
+      - /自定义配置文件的存储目录/dailycheck-115/config:/app/config
+    logging:
+      options:
+        max-size: 10m
+    restart: unless-stopped
+networks: {}
