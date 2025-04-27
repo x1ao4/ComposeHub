@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+  quark-auto-save-x:
+    image: x1ao4/quark-auto-save-x:latest
+    container_name: quark-auto-save-x
+    ports:
+      - 5005:5005
+    environment:
+      WEBUI_USERNAME: 自定义用户名
+      WEBUI_PASSWORD: 自定义密码
+    volumes:
+      - /自定义配置文件的存储目录/quark-auto-save-x/config:/app/config
+    restart: unless-stopped
+networks: {}
