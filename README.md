@@ -39,14 +39,15 @@ ComposeHub 是一个用来分享有趣、实用的 Docker 容器的 Docker Compo
 29. [Plex Auto Languages](https://github.com/RemiRigal/Plex-Auto-Languages)：Plex 电视节目音频、字幕自动选择工具，可自动将单集的选择应用到全剧。
 30. [Plex Auto Skip](https://github.com/mdhiggins/PlexAutoSkip)：通过远程控制实现局域网内连接 Plex 服务器的设备在播放时自动跳过片头尾和自动连续播放。
 31. [Plex Trakt Sync](https://github.com/Taxel/PlexTraktSync)：一个用于同步 Plex 与 Trakt 的观看记录、评分和收藏等信息的工具，支持实时同步。
-32. [Quark Auto Save](https://github.com/Cp0204/quark-auto-save)：夸克网盘自动签到、转存、重命名工具，可用于夸克网盘资源订阅和整理。
-33. [RSSHub](https://docs.rsshub.app/)：一个开源、简单易用、易于扩展的 RSS 生成器，可以为任何内容生成 RSS 订阅源。
-34. [Stream Master](https://github.com/SenexCrenshaw/StreamMaster)：一个 M3U 代理服务平台，支持导入、管理 M3U 和 EPG，提供串流分析和统计工具。
-35. [Threadfin](https://github.com/Threadfin/Threadfin)：一个基于 xTeVe 构建的专为 Plex DVR 和 Emby/Jellyfin Live TV 设计的 M3U 代理服务器。
-36. [Uptime Kuma](https://github.com/louislam/uptime-kuma)：一个自托管的服务器监控工具，支持多种监控方式和通知服务。
-37. [Wangpan-Change-Plex](https://github.com/x1ao4/ComposeHub/blob/main/wangpan-change-plex/compose.yaml)：Plex 网盘自动局部入库工具，支持阿里云盘、115 网盘。
-38. [xTeVe](https://github.com/xteve-project/xTeVe)：一个 M3U 代理服务器，专为 Plex DVR 和 Emby Live TV 设计，支持合并、管理外部 M3U 和 XMLTV。
-39. [YunPlex](https://github.com/awillheartwu/yunplex)：一个用来同步 Plex 音乐资料库和网易云音乐歌单的工具。
+32. [Quark Auto Save X](https://github.com/x1ao4/quark-auto-save-x)：Quark Auto Save 的修改版，更适合订阅和整理夸克网盘的影视资源。
+33. [Quark Auto Save](https://github.com/Cp0204/quark-auto-save)：夸克网盘自动签到、转存、重命名工具，可用于夸克网盘资源订阅和整理。
+34. [RSSHub](https://docs.rsshub.app/)：一个开源、简单易用、易于扩展的 RSS 生成器，可以为任何内容生成 RSS 订阅源。
+35. [Stream Master](https://github.com/SenexCrenshaw/StreamMaster)：一个 M3U 代理服务平台，支持导入、管理 M3U 和 EPG，提供串流分析和统计工具。
+36. [Threadfin](https://github.com/Threadfin/Threadfin)：一个基于 xTeVe 构建的专为 Plex DVR 和 Emby/Jellyfin Live TV 设计的 M3U 代理服务器。
+37. [Uptime Kuma](https://github.com/louislam/uptime-kuma)：一个自托管的服务器监控工具，支持多种监控方式和通知服务。
+38. [Wangpan-Change-Plex](https://github.com/x1ao4/ComposeHub/blob/main/wangpan-change-plex/compose.yaml)：Plex 网盘自动局部入库工具，支持阿里云盘、115 网盘。
+39. [xTeVe](https://github.com/xteve-project/xTeVe)：一个 M3U 代理服务器，专为 Plex DVR 和 Emby Live TV 设计，支持合并、管理外部 M3U 和 XMLTV。
+40. [YunPlex](https://github.com/awillheartwu/yunplex)：一个用来同步 Plex 音乐资料库和网易云音乐歌单的工具。
 
 ## 赞赏
 如果你觉得这个项目对你有用，可以考虑请我喝杯咖啡或者给我一个⭐️。谢谢你的支持！
