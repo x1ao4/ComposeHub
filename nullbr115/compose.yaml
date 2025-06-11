@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  nullbr115:
+    image: gravityle/nullbr115:latest
+    container_name: nullbr115
+    environment:
+      - API_KEY=NULLBR的API KEY
+      - P115_CID=用于转存文件的115目录的CID，可以和CMS自动整理放一起
+      - ADMIN_USER=WebUI用户名 
+      - ADMIN_PWD=WebUI密码
+      - CMS_URL=CMS服务器的IP地址:端口
+      - MP_URL=MP服务器的IP地址:端口
+      - MP_TOKEN=MP服务器的TOKEN
+    volumes:
+      - /自定义配置文件的存储目录/nullbr115/config:/config
+      - /自定义生成文件的存储目录:/media
+    restart: unless-stopped
+    network_mode: host
+networks: {}
