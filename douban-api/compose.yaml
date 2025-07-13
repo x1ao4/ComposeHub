@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  douban-api:
+    image: x1ao4/douban-api:latest
+    container_name: douban-api
+    ports:
+      - 3000:3000
+    restart: unless-stopped
