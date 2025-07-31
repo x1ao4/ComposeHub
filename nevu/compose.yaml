@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  nevu:
+    image: ipmake/nevu:latest
+    container_name: nevu
+    ports:
+      - 3000:3000
+    volumes:
+      - /自定义用户数据的存储目录/nevu/data:/data
+    environment:
+      - PLEX_SERVER=http://你的Plex服务器地址:端口
+    restart: unless-stopped
