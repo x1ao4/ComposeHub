@@ -34,22 +34,23 @@ ComposeHub 是一个用来分享有趣、实用的 Docker 容器的 Docker Compo
 24. [MDC-NG](https://github.com/mdc-ng/mdc-ng)：视频刮削工具，支持刮削元数据、整理文件等功能，支持下载、处理图片，可生成 NFO 文件。
 25. [MKVToolNix](https://github.com/jlesage/docker-mkvtoolnix)：一款用于创建、编辑、分割、合并和检查 MKV 媒体文件的工具，可用于压缩或 Remux 媒体文件。
 26. [Music Tag Web](https://github.com/xhongc/music-tag-web)：音乐标签编辑工具，支持从国内外音乐平台刮削元数据并写入标签，支持批量处理。
-27. [Nginx Proxy Manager](https://nginxproxymanager.com/)：一个简单易用的 Nginx 代理主机管理工具，支持反向代理、免费自动证书等功能。
-28. [NULLBR115](https://hub.docker.com/r/gravityle/nullbr115)：NULLBR 的配套工具，支持搜索、转存和 STRM 生成等功能。
-29. [P115DAV](https://hub.docker.com/r/cgkings/p115dav)：为 115 网盘提供 WebDAV 服务的工具。
-30. [Pixman](https://hub.docker.com/r/pixman/pixman)：通过自建服务器，使用自己的 IP 地址或域名访问由作者维护的 IPTV 直播源。
-31. [Plex Auto Languages](https://github.com/RemiRigal/Plex-Auto-Languages)：Plex 电视节目音频、字幕自动选择工具，可自动将单集的选择应用到全剧。
-32. [Plex Auto Skip](https://github.com/mdhiggins/PlexAutoSkip)：通过远程控制实现局域网内连接 Plex 服务器的设备在播放时自动跳过片头尾和自动连续播放。
-33. [Plex Trakt Sync](https://github.com/Taxel/PlexTraktSync)：一个用于同步 Plex 与 Trakt 的观看记录、评分和收藏等信息的工具，支持实时同步。
-34. [Quark Auto Save X](https://github.com/x1ao4/quark-auto-save-x)：Quark Auto Save 的修改版，更适合订阅和整理夸克网盘的影视资源。
-35. [Quark Auto Save](https://github.com/Cp0204/quark-auto-save)：夸克网盘自动签到、转存、重命名工具，可用于夸克网盘资源订阅和整理。
-36. [RSSHub](https://docs.rsshub.app/)：一个开源、简单易用、易于扩展的 RSS 生成器，可以为任何内容生成 RSS 订阅源。
-37. [Stream Master](https://github.com/SenexCrenshaw/StreamMaster)：一个 M3U 代理服务平台，支持导入、管理 M3U 和 EPG，提供串流分析和统计工具。
-38. [Threadfin](https://github.com/Threadfin/Threadfin)：一个基于 xTeVe 构建的专为 Plex DVR 和 Emby/Jellyfin Live TV 设计的 M3U 代理服务器。
-39. [Uptime Kuma](https://github.com/louislam/uptime-kuma)：一个自托管的服务器监控工具，支持多种监控方式和通知服务。
-40. [Wangpan-Change-Plex](https://github.com/x1ao4/ComposeHub/blob/main/wangpan-change-plex/compose.yaml)：Plex 网盘自动局部入库工具，支持阿里云盘、115 网盘。
-41. [xTeVe](https://github.com/xteve-project/xTeVe)：一个 M3U 代理服务器，专为 Plex DVR 和 Emby Live TV 设计，支持合并、管理外部 M3U 和 XMLTV。
-42. [YunPlex](https://github.com/awillheartwu/yunplex)：一个用来同步 Plex 音乐资料库和网易云音乐歌单的工具。
+27. [NEVU](https://github.com/Ipmake/Nevu)：一个基于 Plex API 构建的 Plex 三方 UI（前端/客户端）服务，支持网页和安卓。
+28. [Nginx Proxy Manager](https://nginxproxymanager.com/)：一个简单易用的 Nginx 代理主机管理工具，支持反向代理、免费自动证书等功能。
+29. [NULLBR115](https://hub.docker.com/r/gravityle/nullbr115)：NULLBR 的配套工具，支持搜索、转存和 STRM 生成等功能。
+30. [P115DAV](https://hub.docker.com/r/cgkings/p115dav)：为 115 网盘提供 WebDAV 服务的工具。
+31. [Pixman](https://hub.docker.com/r/pixman/pixman)：通过自建服务器，使用自己的 IP 地址或域名访问由作者维护的 IPTV 直播源。
+32. [Plex Auto Languages](https://github.com/RemiRigal/Plex-Auto-Languages)：Plex 电视节目音频、字幕自动选择工具，可自动将单集的选择应用到全剧。
+33. [Plex Auto Skip](https://github.com/mdhiggins/PlexAutoSkip)：通过远程控制实现局域网内连接 Plex 服务器的设备在播放时自动跳过片头尾和自动连续播放。
+34. [Plex Trakt Sync](https://github.com/Taxel/PlexTraktSync)：一个用于同步 Plex 与 Trakt 的观看记录、评分和收藏等信息的工具，支持实时同步。
+35. [Quark Auto Save X](https://github.com/x1ao4/quark-auto-save-x)：Quark Auto Save 的修改版，更适合订阅和整理夸克网盘的影视资源。
+36. [Quark Auto Save](https://github.com/Cp0204/quark-auto-save)：夸克网盘自动签到、转存、重命名工具，可用于夸克网盘资源订阅和整理。
+37. [RSSHub](https://docs.rsshub.app/)：一个开源、简单易用、易于扩展的 RSS 生成器，可以为任何内容生成 RSS 订阅源。
+38. [Stream Master](https://github.com/SenexCrenshaw/StreamMaster)：一个 M3U 代理服务平台，支持导入、管理 M3U 和 EPG，提供串流分析和统计工具。
+39. [Threadfin](https://github.com/Threadfin/Threadfin)：一个基于 xTeVe 构建的专为 Plex DVR 和 Emby/Jellyfin Live TV 设计的 M3U 代理服务器。
+40. [Uptime Kuma](https://github.com/louislam/uptime-kuma)：一个自托管的服务器监控工具，支持多种监控方式和通知服务。
+41. [Wangpan-Change-Plex](https://github.com/x1ao4/ComposeHub/blob/main/wangpan-change-plex/compose.yaml)：Plex 网盘自动局部入库工具，支持阿里云盘、115 网盘。
+42. [xTeVe](https://github.com/xteve-project/xTeVe)：一个 M3U 代理服务器，专为 Plex DVR 和 Emby Live TV 设计，支持合并、管理外部 M3U 和 XMLTV。
+43. [YunPlex](https://github.com/awillheartwu/yunplex)：一个用来同步 Plex 音乐资料库和网易云音乐歌单的工具。
 
 ## 赞赏
 如果你觉得这个项目对你有用，可以考虑请我喝杯咖啡或者给我一个⭐️。谢谢你的支持！
