@@ -1,0 +1,12 @@
+services:
+  pinchflat:
+    image: ghcr.io/kieraneglin/pinchflat:latest
+    container_name: pinchflat
+    environment:
+      - TZ=Asia/Shanghai
+    ports:
+      - 8945:8945
+    volumes:
+      - /自定义配置文件的存储目录/pinchflat/config:/config
+      - /自定义下载文件的存储目录:/downloads
+    restart: unless-stopped
